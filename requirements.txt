@@ -1,0 +1,5 @@
+pytest>=8.4.0
+requests>=2.34.0
+Faker>=40.44.0
+python-dotenv>=1.2.4
+pytest-html>=4.2.0
