@@ -23,7 +23,7 @@ class BaseClient:
 
 
     def post(self, endpoint, json=None):
-        return self.session.get(
+        return self.session.post(
             url=f"{self.base_url}{endpoint}",
             json=json,
             timeout=REQUEST_TIMEOUT
